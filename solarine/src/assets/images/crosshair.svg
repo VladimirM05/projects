@@ -1,0 +1,9 @@
+<svg width="295" height="164" viewBox="0 0 295 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14 68V1H35" stroke="#45A19D"/>
+<path d="M35 163H14V96.0001" stroke="#45A19D"/>
+<line y1="82" x2="27" y2="82" stroke="#66FCF1" stroke-width="2"/>
+<path d="M280 68V1H259" stroke="#45A19D"/>
+<path d="M257 163H278V96" stroke="#45A19D"/>
+<line y1="-1" x2="27" y2="-1" transform="matrix(-1 0 0 1 295 83)" stroke="#66FCF1" stroke-width="2"/>
+<line opacity="0.1" x1="55" y1="81.5" x2="237" y2="81.5" stroke="white"/>
+</svg>

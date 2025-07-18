@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.header {
+	padding: 16px 48px;
+	z-index: 20;
+	position: fixed;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.04);
+
+	.header-inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.logo {
+			.logo-link {
+				.logo-img {
+					height: 52px;
+				}
+			}
+		}
+
+		.menu {
+			position: absolute;
+			left: 45%;
+			transform: translateX(-50%);
+
+			.menu-list {
+				display: flex;
+				gap: 0 48px;
+
+				.menu-item {
+					.menu-link {
+						font-family: 'Manrope', sans-serif;
+						text-transform: uppercase;
+						color: #dadada;
+						font-weight: 800;
+						transition: all 0.2s ease-out;
+						display: inline-block;
+						white-space: nowrap;
+
+						&:hover {
+							transform: scale(1.25);
+							color: #66fcf1;
+						}
+					}
+				}
+			}
+		}
+
+		.contacts {
+			display: flex;
+			gap: 0 42px;
+			align-items: center;
+
+			.social {
+				display: flex;
+				gap: 0 12px;
+
+				.social-link {
+					.social-img {
+						height: 32px;
+					}
+				}
+			}
+
+			.phone {
+				font-size: 16px;
+				transition: all 0.2s ease-out;
+				font-family: 'Manrope', sans-serif;
+				color: #dadada;
+				font-weight: 800;
+
+				&:hover {
+					color: #ffffff;
+				}
+			}
+
+			.reg-btn {
+				padding: 9px 26px;
+				color: #000000;
+				background-color: #66fcf1;
+				font-weight: 600;
+				font-size: 20px;
+				transition: all 0.2s ease-out;
+				font-family: 'Manrope', sans-serif;
+				text-transform: uppercase;
+
+				&:hover {
+					background-color: darken(#66fcf1, 25%);
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.preview {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+
+	.preview-inner {
+		.preview-title {
+			text-transform: uppercase;
+			color: #dadada;
+			font-size: 50px;
+			font-family: 'Inter', sans-serif;
+			font-weight: 800;
+			text-align: center;
+			text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+			margin-bottom: 48px;
+			margin-top: 128px;
+		}
+
+		.game {
+			display: flex;
+			gap: 0 100px;
+
+			.game-name-container {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				width: 100%;
+				position: relative;
+
+				.game-name {
+					.game-img {
+						position: absolute;
+						left: 50%;
+						transform: translateX(-50%);
+					}
+
+					.game-title {
+						font-family: 'Inter', sans-serif;
+						font-weight: 800;
+						color: #c5c6c7;
+						text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+						font-size: 50px;
+						margin-bottom: 80px;
+						text-align: center;
+
+						.highlight {
+							color: #45a29e;
+							font-size: 64px;
+						}
+					}
+				}
+
+				.contact-btn {
+					border: 1px solid #66fcf1;
+					font-size: 30px;
+					font-weight: 700;
+					font-family: 'Manrope', sans-serif;
+					color: #dadada;
+					padding: 14px 42px;
+					text-transform: uppercase;
+					transition: all 0.2s ease-out;
+
+					&:hover {
+						background-color: #66fcf1;
+						color: #000000;
+					}
+				}
+			}
+
+			.game-descr-container {
+				.game-descr {
+					font-size: 25px;
+					font-family: 'Manrope', sans-serif;
+					color: #c5c6c7;
+					margin-bottom: 12px;
+					width: 560px;
+				}
+
+				.made-in-rus {
+					display: flex;
+					line-height: 14px;
+
+					.made-in-rus-symbols {
+						border: 1px solid #dadada;
+						color: #dadada;
+						font-family: 'Manrope', sans-serif;
+						font-weight: 700;
+						text-transform: uppercase;
+					}
+
+					.made-in-rus-text {
+						font-family: 'Manrope', sans-serif;
+						color: #dadada;
+						font-weight: 700;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+
+		.gun {
+			margin-top: -128px;
+		}
+	}
+}

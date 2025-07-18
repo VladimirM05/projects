@@ -1,0 +1,13 @@
+@use 'sass:color';
+
+.calc-input {
+	width: 200px;
+	height: 48px;
+	border-radius: 16px;
+	background-color: #444444;
+	border: 2px solid color.scale(#444444, $lightness: -10%);
+	color: #ffffff;
+	font-size: 32px;
+	text-align: end;
+	padding-right: 8px;
+}

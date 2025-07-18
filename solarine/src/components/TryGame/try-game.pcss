@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@import '@/mixins/img-mixins.pcss';
+@import '@/mixins/text-mixins.pcss';
+
+.game {
+	padding-top: 80px;
+	@mixin imgBg;
+
+	.game-inner {
+		@mixin imgBg;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 30px 20px 50px 20px;
+		width: 500px;
+		gap: 16px 0;
+
+		.game-descr {
+			@mixin paragraphRegular;
+			color: #dadada;
+			font-size: 24px;
+			margin-bottom: 16px;
+		}
+
+		.game-btn {
+			border: 3px solid #66fcf1;
+			padding: 10px 50px;
+			width: max-content;
+			font-size: 40px;
+			font-family: 'Manrope', sans-serif;
+			font-weight: 800;
+			text-transform: uppercase;
+			transition: all 0.2s ease-out;
+			color: #dadada;
+
+			&:hover {
+				background-color: #66fcf1;
+				color: #000000;
+			}
+		}
+	}
+}

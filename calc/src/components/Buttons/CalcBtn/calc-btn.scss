@@ -1,0 +1,20 @@
+@use 'sass:color';
+
+.calc-btn {
+	height: 48px;
+	width: 64px;
+	border-radius: 16px;
+	cursor: pointer;
+	display: grid;
+	place-content: center;
+	color: #ffffff;
+	font-size: 24px;
+	transition: all 0.2s ease-out;
+	background-color: #444444;
+	border: 2px solid color.scale(#444444, $lightness: -10%);
+
+	&:hover {
+		background-color: color.scale(#444444, $lightness: -10%);
+		border: 2px solid color.scale(#444444, $lightness: -20%);
+	}
+}

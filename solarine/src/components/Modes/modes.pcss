@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import '@/mixins/text-mixins.pcss';
+
+.modes {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	.modes-inner {
+		.modes-title {
+			@mixin sectionHeader;
+			margin-bottom: 36px;
+		}
+
+		.about-cards {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 8px;
+
+			.about-card {
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+				padding: 32px;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				width: 600px;
+				height: 380px;
+
+				.about-card-title {
+					@mixin sectionHeader;
+					font-family: 'Manrope', sans-serif;
+					font-size: 48px;
+				}
+
+				.about-card-descr {
+					font-size: 20px;
+					color: #dadada;
+					white-space: pre-line;
+					font-family: 'Manrope', sans-serif;
+					font-weight: 600;
+				}
+
+				.about-card-container {
+					display: flex;
+					justify-content: space-between;
+					align-items: end;
+
+					.about-card-num {
+						@mixin num;
+						font-size: 128px;
+						color: #273334;
+						line-height: 96px;
+						text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+					}
+
+					.about-card-img {
+						margin: 0 -12px -12px 0;
+					}
+				}
+			}
+		}
+	}
+}

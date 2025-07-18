@@ -1,0 +1,12 @@
+@use 'sass:color';
+
+.calc-btn-operation {
+	background-color: #25d366;
+	border: 2px solid color.scale(#25d366, $lightness: -20%);
+	font-size: 32px;
+
+	&:hover {
+		background-color: color.scale(#25d366, $lightness: -20%);
+		border: 2px solid color.scale(#25d366, $lightness: -40%);
+	}
+}

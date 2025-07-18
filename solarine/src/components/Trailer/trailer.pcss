@@ -1,0 +1,35 @@
+@import '@/mixins/text-mixins.pcss';
+
+.trailer {
+	.trailer-inner {
+		width: 100%;
+
+		.trailer-title {
+			@mixin sectionHeader;
+			font-size: 50px;
+			margin-bottom: 24px;
+		}
+
+		.trailer-descr {
+			font-family: 'Manrope', sans-serif;
+			font-weight: 700;
+			font-size: 24px;
+			color: #c5c6c7;
+			margin-bottom: 12px;
+
+			.highlight {
+				color: #45a29e;
+			}
+		}
+
+		.slider {
+			flex-direction: column;
+			align-items: center;
+
+			.slider-img {
+				margin: 24px;
+				width: 720px;
+			}
+		}
+	}
+}

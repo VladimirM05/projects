@@ -1,0 +1,11 @@
+@use 'sass:color';
+
+.calc-btn-del {
+	background-color: #FF8243 !important;
+	border: 2px solid color.scale(#FF8243, $lightness: -5%) !important;
+
+	&:hover {
+		background-color: color.scale(#FF8243, $lightness: -5%) !important;
+		border: 2px solid color.scale(#FF8243, $lightness: -19%) !important;
+	}
+}
