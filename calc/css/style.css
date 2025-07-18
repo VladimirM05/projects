@@ -1,0 +1,167 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 24px;
+  background-image: url(../images/minimalizm.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+input {
+  border: none;
+  color: #f0f0f0;
+}
+
+button {
+  border: none;
+  font-size: 28px;
+  color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  margin-top: -55px;
+}
+
+.calc__title {
+  margin-left: -275px;
+  color: rgb(64, 64, 64);
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(33, 33, 33, .5);
+  backdrop-filter: blur(20px);
+  border-radius: 36px;
+  padding: 12px;
+  border: 2px solid rgba(0, 0, 0, .15);
+}
+
+.field__box {
+  display: flex;
+  gap: 8px;
+  max-width: 530px;
+}
+
+.nums__field {
+  background-color: transparent;
+  backdrop-filter: blur(0);
+  text-align: center;
+  border-radius: 24px;
+  font-size: 40px;
+  padding: 0 18px;
+  height: 72px;
+  width: calc(100% - 80px);
+  cursor: text;
+  border: 2px solid rgba(0, 0, 0, .15);
+}
+
+.delete__btn {
+  width: 72px;
+  border-radius: 24px;
+  background-color: crimson;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, .2);
+}
+
+.delete__btn:hover {
+  background-color: rgb(180, 10, 40);
+  padding-right: 4px;
+  transition: .1s ease-in;
+}
+
+.delete__btn:not(:hover) {
+  transition: .1s ease-in;
+}
+
+.delete__icon {
+  font-size: 40px;
+  margin-top: 7px;
+}
+
+.operators__box {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-template-columns: auto auto auto auto auto auto;
+  display: grid;
+  gap: 0 4px;
+  height: 64px;
+}
+
+.operators__btn {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.operators__btn:hover {
+  color: lightgrey;
+  margin-top: -4px;
+  transition: .1s ease-in;
+}
+
+.operators__btn:not(:hover) {
+  transition: .1s ease-in;
+}
+
+.calc__box {
+  display: grid;
+  grid-template-columns: 128px 128px 128px 128px;
+  grid-template-rows: 72px 72px 72px 72px;
+  gap: 6px;
+}
+
+.calc__btn {
+  background-color: transparent;
+  backdrop-filter: blur(0);
+  border-radius: 24px;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, .15);
+}
+
+.calc__btn:hover {
+  background-color: rgba(33, 33, 33, .4);
+  padding-bottom: 4px;
+  transition: .1s ease-in;
+}
+
+.calc__btn:not(:hover) {
+  transition: .1s ease-in;
+}
+
+.calc__btn-13 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.calc__btn-14 {
+  background-color: dodgerblue;
+}
+
+.calc__btn-14:hover {
+  background-color: royalblue;
+}

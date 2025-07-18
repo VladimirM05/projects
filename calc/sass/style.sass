@@ -1,0 +1,40 @@
+$bgColor: red
+$color: #ccc
+$blockWidth: 300px
+
+@mixin font ($color, $blockWidth)
+	font-size: 1.1em
+	font-family: Arial, sans-serif
+	font-weight: $blockWidth
+	color: $color
+
+*
+	padding: 0
+	margin: 0
+	box-sizing: border-box
+	
+.block:not(.first)
+	background: $bgColor
+	height: 200px
+	margin-bottom: 20px
+	width: $blockWidth
+	
+.first
+	background: $bgColor
+	height: 100px
+	margin-bottom: 20px
+
+
+#centeral_block
+	padding: 30px
+
+	ul
+		list-style-type: none
+
+		li
+			float: left
+			margin-right: 10px
+			@include font (blue, 300px)
+
+*
+	box-sizing: border-box
