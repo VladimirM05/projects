@@ -1,0 +1,51 @@
+.sections {
+    padding: 60px 0;
+    background-color: #fff;
+    scroll-snap-align: start;
+  }
+  
+  .sections-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  
+  .sections-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 0 32px -300px; /* Отрицательный margin для выхода за padding контейнера */
+    padding-left: 64px; /* Компенсируем отрицательный margin */
+    color: #000;
+    position: relative;
+    z-index: 3;
+    width: calc(100% + 40px); /* Расширяем на ширину padding'а */
+  }
+  
+  .sections-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .section-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 12px 16px;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+  }
+  
+  .section-number {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    min-width: 20px;
+  }
+  
+  .section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+  }

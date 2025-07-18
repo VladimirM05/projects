@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+.footer {
+	background-color: #efefef;
+	padding: 64px 0;
+
+	.footer-info {
+		font-family: 'Roboto', sans-serif;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 64px;
+
+		.footer-socials {
+			display: flex;
+			flex-direction: column;
+			gap: 32px 0;
+
+			.footer-address {
+				.footer-address-title {
+					font-weight: 600;
+					margin-bottom: 6px;
+				}
+
+				.footer-address-link {
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+
+			.footer-contacts {
+				.footer-contacts-title {
+					font-weight: 700;
+					margin-bottom: 6px;
+				}
+
+				.footer-contacts-tel {
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+
+				.footer-contacts-mail {
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+
+			.footer-socials-list {
+				display: flex;
+				gap: 0 12px;
+			}
+		}
+
+		.footer-links {
+			display: flex;
+			gap: 0 64px;
+		}
+	}
+
+	.horizontal-line {
+		border-top: 1px solid #000000;
+		margin-bottom: 32px;
+	}
+
+	.footer-copyright {
+		display: flex;
+		justify-content: space-between;
+
+		.footer-politics {
+			display: flex;
+			gap: 0 24px;
+
+			.footer-politics-list {
+				.footer-politics-item {
+					cursor: pointer;
+
+					.footer-politics-text {
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+}

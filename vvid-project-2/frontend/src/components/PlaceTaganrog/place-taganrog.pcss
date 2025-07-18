@@ -1,0 +1,19 @@
+@import '@/mixins/text-mixins.pcss';
+@import '@/mixins/block-style-mixins.pcss';
+
+.taganrog {
+    .taganrog-inner {
+        @mixin blockPosition; 
+
+        .taganrog-title {
+            @mixin sectionSubtitle;
+            padding: 96px 0 24px 0;
+            text-align: center;
+        }
+
+        .taganrog-img {
+            @mixin place;
+            height: 480px;
+        }
+    }
+}

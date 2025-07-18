@@ -1,0 +1,1 @@
+export {LazyAdmin as AdminPage} from "./Admin.lazy"

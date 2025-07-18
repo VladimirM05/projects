@@ -1,0 +1,13 @@
+@import '@/mixins/text-mixins.pcss';
+@import '@/mixins/block-style-mixins.pcss';
+
+.description {
+    .description-inner {
+        @mixin blockPosition; 
+
+        .description-title {
+            @mixin sectionSubtitle;
+            padding: 96px 0 24px 0;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@import '@/mixins/text-mixins.pcss';
+@import '@/mixins/block-style-mixins.pcss';
+
+.residence {
+    .residence-inner {
+        @mixin blockPosition; 
+
+        .residence-title {
+            @mixin sectionSubtitle;
+            padding: 96px 0 24px 0;
+        }
+
+        .residence-img {
+            @mixin place;
+            height: 480px;
+            width: 480px;
+        }
+    }
+}

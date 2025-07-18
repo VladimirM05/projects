@@ -1,0 +1,1 @@
+export { LazyContestant as Contestant } from './Contestant.lazy';

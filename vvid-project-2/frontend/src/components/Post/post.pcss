@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+@import '@/mixins/block-style-mixins.pcss';
+@import '@/mixins/text-mixins.pcss';
+
+.post {
+	@mixin glass;
+	gap: 12px 0;
+	display: flex;
+	flex-direction: column;
+	border-radius: 36px;
+	padding: 12px;
+	background-color: rgba(255, 255, 255, 0.8);
+
+	.post-img-wrapper {
+		background-color: darken(#efefef, 4%);
+		border-radius: 24px;
+		width: 320px;
+		height: 240px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+
+		.post-preview-img {
+			height: 100%;
+			width: 100%;
+			border-radius: 24px;
+		}
+
+		.custom-file-upload {
+			height: 100px;
+			width: 100px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 24px;
+			transition: 0.3s all ease-out;
+			z-index: 10;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+
+			.post-preview-input {
+				display: none;
+			}
+
+			.post-preview-input-img {
+				height: 48px;
+				width: 48px;
+				user-select: none;
+			}
+
+			&:hover {
+				background-color: rgba(180, 180, 180, 0.75);
+				padding: 24px;
+			}
+		}
+	}
+
+	.post-category {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 600;
+		cursor: pointer;
+		appearance: none;
+
+		.post-categories {
+			@mixin glass;
+		}
+	}
+
+	.post-title {
+		overflow: hidden;
+		border-bottom: 1px solid #000000;
+		@mixin sectionSubtitle;
+	}
+
+	.post-descr {
+		@mixin sectionSubtitle;
+		font-size: 20px;
+		border-bottom: 1px solid #000000;
+	}
+
+	.post-btn-container {
+		display: flex;
+		justify-content: center;
+
+		.post-btn-add {
+			@mixin sectionSubtitle;
+			padding: 0 24px;
+			border-radius: 24px;
+			background: linear-gradient(90deg, #ee6ef5, #57b9ff);
+			transition: 0.3s ease-out;
+
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+	}
+}

@@ -1,0 +1,154 @@
+.main-section {
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+
+  .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #333;
+  }
+
+  .form-group {
+      margin-bottom: 25px;
+
+      h3 {
+          font-size: 20px;
+          margin-bottom: 15px;
+          color: #444;
+      }
+
+      .group-label {
+          display: block;
+          margin-bottom: 5px;
+          font-weight: bold;
+          color: #555;
+      }
+
+      .input-form {
+          width: 100%;
+          padding: 8px;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+          margin-bottom: 8px;
+
+          &:last-child {
+              margin-bottom: 0;
+          }
+      }
+
+      
+
+      .object-list {
+          list-style: none;
+          padding: 0;
+          margin-bottom: 15px;
+
+          .list-item {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding: 10px;
+              border: 1px solid #ddd;
+              border-radius: 4px;
+              margin-bottom: 8px;
+              background-color: #fff;
+
+              .item-content {
+                  flex-grow: 1;
+
+                  div {
+                      margin-bottom: 4px;
+
+                      &:last-child {
+                          margin-bottom: 0;
+                      }
+                  }
+              }
+
+              .action-buttons {
+                  margin-left: 10px;
+              }
+          }
+      }
+
+      .add-button, .remove-button {
+          padding: 8px 16px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          font-weight: 500;
+          transition: background-color 0.2s;
+
+          &:hover {
+              opacity: 0.9;
+          }
+      }
+
+      .add-button {
+          background-color: #28a745;
+          color: white;
+      }
+
+      .remove-button {
+          background-color: #dc3545;
+          color: white;
+      }
+  }
+
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+    
+        .group-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            font-weight: normal;
+            color: #333;
+            transition: color 0.2s;
+            
+            &:hover {
+                color: #007bff;
+            }
+        
+            input[type="radio"] {
+                width: 16px;
+                height: 16px;
+                accent-color: #007bff;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .save-button {
+        padding: 12px 24px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        margin-top: 20px;
+      }
+      
+      .save-button:hover {
+        background-color: #0069d9;
+        transform: translateY(-1px);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+      
+      .save-button:active {
+        transform: translateY(0);
+        box-shadow: none;
+    }
+}
