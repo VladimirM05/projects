@@ -1,0 +1,96 @@
+[33mcommit 4d65d51bfc04b5613379102129d80127f7a97629[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Vladimir <vladimirmalakhov05>
+Date:   Tue May 28 23:53:16 2024 +0300
+
+    release v0.1.2
+
+[33mcommit 17a1171a2180997a57ff6dd35fd0115cc0032b15[m
+Author: Vladimir <vladimirmalakhov05>
+Date:   Wed May 22 00:11:46 2024 +0300
+
+    release v0.1.1
+
+[33mcommit 442acd3daa65dc10568c64160d4b5bc80ae08b8e[m
+Merge: b6d5243 48509dc
+Author: Vladimir <vladimirmalakhov05>
+Date:   Wed May 8 01:51:50 2024 +0300
+
+    release v0.1.0
+
+[33mcommit b6d524306571f29c3270c89cd054e7cb095d0803[m
+Author: Vladimir <vladimirmalakhov05>
+Date:   Wed May 8 01:48:23 2024 +0300
+
+    release v0.1.0
+
+[33mcommit 48509dc7539789580d046bdde98759c64cdf517e[m
+Author: SalomandraC <kazak.petrushin@yandex.ru>
+Date:   Tue Apr 30 16:49:38 2024 +0300
+
+    edit games
+
+[33mcommit e679a1abd21942c3d6822152446fc2abf1be7aa2[m
+Author: Maxonchik7 <161450050+Maxonchik7@users.noreply.github.com>
+Date:   Sat Apr 13 15:53:36 2024 +0300
+
+    Create SmartContract_Test1
+
+[33mcommit 47b3a2fb3db3b5aec23eb705b645ea136225c6d9[m
+Author: Maxonchik7 <161450050+Maxonchik7@users.noreply.github.com>
+Date:   Sat Apr 13 15:48:41 2024 +0300
+
+    Create SmartContract_Test1
+
+[33mcommit 8f9be137af4d4fb0a4645c7864842dfa6c7fe69f[m
+Author: Vladimir <vladimirmalakhov05>
+Date:   Fri Apr 12 02:31:38 2024 +0300
+
+    release v0.06.0
+
+[33mcommit 78b72d4ed6f72356b99b91b2df1b4e3d01857024[m
+Author: Vladimir <vladimirmalakhov05>
+Date:   Fri Apr 12 01:41:02 2024 +0300
+
+    release v0.05
+
+[33mcommit 72e7c7bbfb27ab827d6add2d4836a577a0b17c14[m
+Author: Vladimir <vladimirmalakhov05>
+Date:   Fri Apr 5 02:12:26 2024 +0300
+
+    release v0.04
+
+[33mcommit 96533f90abb3abcf4c276a832a1159f232b96b05[m
+Author: Vladimir <vladimirmalakhov05>
+Date:   Thu Mar 28 02:31:16 2024 +0300
+
+    release v0.02
+
+[33mcommit 6f09e72d34fd3c59034fb5588374aa91835fb6b8[m
+Author: VladimirM05 <vladimirmalakhov05>
+Date:   Mon Mar 4 23:51:18 2024 +0300
+
+    release v0.01
+
+[33mcommit 486fb8671f9d5af541b80dfa2fe5d55dc65c4d8b[m
+Author: VladimirM05 <vladimirmalakhov05>
+Date:   Thu Feb 29 23:54:22 2024 +0300
+
+    release 0.02
+
+[33mcommit 0235029aba773bd44a00e6e5ab7c23ba422eb57e[m
+Author: VladimirM05 <vladimirmalakhov05>
+Date:   Wed Feb 28 22:29:58 2024 +0300
+
+    release v0.01
+
+[33mcommit 0de1d7b116db4c834ff9c54958cca99512bd81a6[m
+Author: VladimirM05 <vladimirmalakhov05>
+Date:   Tue Feb 27 17:08:03 2024 +0300
+
+    release v0
+
+[33mcommit 57abaae0c3cb29a8d86d34ee39c9a43e9dd7d879[m
+Author: VladimirM05 <vladimirmalakhov05>
+Date:   Tue Feb 27 16:35:33 2024 +0300
+
+    Initialize project using Create React App
